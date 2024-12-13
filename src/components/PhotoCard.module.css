@@ -1,0 +1,16 @@
+.card {
+    width: 40%;
+    border-radius: 3%;
+    overflow: hidden;
+    text-align: left;
+    background-color: white;
+}
+
+.cardContent {
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
