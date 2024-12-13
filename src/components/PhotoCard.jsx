@@ -1,15 +1,18 @@
 import style from "./PhotoCard.module.css";
 import Button from "./Button";
 
-function PhotoCard() {
+function PhotoCard({title, image, content, tags}) {
+    const tagsArray = tags.map((curTag) => <span className={curTag}>{curTag}</span>)
+
     return (
         <div className={style.card}>
             <div>
-                <img src="/images/Ace.jpg" alt="" />
+                <img src={image} alt="" />
             </div>
             <div className={style.cardContent}>
-                <h4>Titolo del Post</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quas accusantium nobis nam, eum voluptatum repellendus, amet quod atque quidem eaque modi possimus hic earum, sapiente harum! Veritatis, dolorem unde?</p>
+                <h4>{title}</h4>
+                <p>{content}</p>
+                {tagsArray}
             </div>
             <div>
                 <Button />

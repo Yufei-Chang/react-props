@@ -35,3 +35,33 @@ header {
 .mb-1 {
     margin-bottom: 1rem;
 }
+
+.html {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: lightskyblue;
+}
+
+.css {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: lightgreen;
+}
+
+.js {    
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+.php {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: lightcoral;
+}
